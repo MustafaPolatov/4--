@@ -1,0 +1,128 @@
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #158696;
+    
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+input{
+    width: 700px;
+    border: solid black 2px;
+    padding: 5px;
+}
+.ong-tarap{
+    margin-top: 16px;
+    margin-right: 60px;
+}
+
+
+
+.book{
+    color: white;
+    margin-top: 5px;
+    font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+text-align: right;
+letter-spacing: -0.045em;
+}
+
+
+.bt{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.rasm-1{
+    width: 131px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+.map-card{
+    margin: 15px;
+    background-color: #BAEAFF;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.map-card p{
+    color: #550D0E;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.zag{
+    color: #550D0E;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.bt-korzin{
+    color: #550D0E;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.a-menu{
+    font-size: 25px;
+    color: black;
+}
+
+
+
+.tik{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.modal-body{
+    background-color:#BAEAFF !important;
+}
+
+
+.chap-10{
+    width: 50%;
+}
+.ong-10{
+    
+    width: 50%;
+}
+
+.modal-img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.ong-10{
+    color: rgb(128, 67, 67);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#row{
+    overflow-y: auto;
+}
