@@ -63,7 +63,7 @@ API()
         $("#row").html("")
         masiv.map((v,i)=>{
            let col = `
-            <div class="col-12">
+            <div class="col-lg-12 col-sm-6">
                 <div class="map-card">
                     <p>${v.title}</p>
                     <p>I.E.Bowman</p>
