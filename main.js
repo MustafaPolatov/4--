@@ -28,7 +28,7 @@ API()
         $("#map-card").html("")
         masiv.map((v,i)=>{
            let col = `
-            <div class="col-3">
+            <div class="col-lg-3 col-sm-12">
                 <div class="map-card">
                     <p>${v.title.length>20 ? `${v.title.slice(0,15)}...` :v.title}</p>
                     <p>${v.contributor.length>15 ? `${v.contributor.slice(0,10)} ...`  :v.contributor}</p>
