@@ -30,7 +30,7 @@ API()
            let col = `
             <div class="col-3">
                 <div class="map-card">
-                    <p>${v.title}</p>
+                    <p>${v.title.length>20 ? `${v.title.slice(0,15)}...` :v.title}</p>
                     <p>${v.contributor.length>15 ? `${v.contributor.slice(0,10)} ...`  :v.contributor}</p>
                     <img class="rasm-1" src="${v.book_image}" alt="">
                     <p class="mt-2">USD $${v.weeks_on_list}</p>

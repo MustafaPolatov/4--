@@ -63,6 +63,7 @@ letter-spacing: -0.045em;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
+    height: 420px;
 }
 .map-card p{
     color: #550D0E;
@@ -94,7 +95,9 @@ letter-spacing: -0.045em;
     color: black;
 }
 
-
+.a-menu:hover{
+    color: black;
+}
 
 .tik{
     width: 100%;
