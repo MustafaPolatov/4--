@@ -31,7 +31,7 @@ API()
             <div class="col-3">
                 <div class="map-card">
                     <p>${v.title}</p>
-                    <p>${v.contributor}</p>
+                    <p>${v.contributor.length>15 ? `${v.contributor.slice(0,10)} ...`  :v.contributor}</p>
                     <img class="rasm-1" src="${v.book_image}" alt="">
                     <p class="mt-2">USD $${v.weeks_on_list}</p>
                     <button class="bt-korzin" onclick="Add(${i})">Korzina</button>
@@ -51,7 +51,7 @@ API()
 
     function Search(a) {
         let yangi = data.filter(v=>{
-            return v.title.includes(a)
+            return v.title.toLowerCase().includes(a.toLowerCase())
         })
         Ekran(yangi)
     }
