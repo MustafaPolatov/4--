@@ -3,8 +3,7 @@
 .menu{
     display: flex;
     justify-content: space-between;
-    background-color: #158696;
-        width: 100%;
+    background-color: #158696;  
 }
 
 
@@ -136,14 +135,20 @@ letter-spacing: -0.045em;
 }
 
 
-
+.none{
+    display: none;
+}
 
 
 
 
 
 @media  screen and (max-width:400px) {
-    
+
+
+body{
+    width: 320px;
+}
 .bt{
     display: none;
 }
@@ -151,18 +156,17 @@ input{
     display: none;
 }
 #none{
-    margin: 0;
-    margin-right: 700px;
-    margin-top: 15px;
+    display: none;
 }
-.book{
-    font-size: 20px !important
+.none{
+    display: block;
+    margin-left: 15px;
+    margin-top: 12px;
 }
 .menu{
-    width: 330px;
-    justify-content: none;
+    width: 400px;
 }
-.ong-10{
-    display: none;
+.tr{
+    width: 200px;
 }
 }
